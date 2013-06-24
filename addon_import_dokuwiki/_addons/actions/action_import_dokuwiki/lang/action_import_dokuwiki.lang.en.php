@@ -1,0 +1,25 @@
+<?php
+$lang = array (
+	"naventry"			=>	"Import from Dokuwiki",
+	"naventry_desc"		=>	"Import user accounts from Dokuwiki",
+	"form_title"		=>	"Importing user accounts from Dokuwiki",
+	"form_explain"		=>	"This component will import user accounts from an existing Dokuwiki setup. <br/>Enter the path to your Dokuwiki setup for starting a simulation.",
+	"form_path"		=>	"Installation path to Dokuwiki",
+	"form_path_file_not_found"	=>	"Please make sure the path is correct. The following file was not found: %file%",
+	"form_submit"	=>	"Simulate import",
+	"simulation_title"	=>	"Import simulation result",
+	"simulation_explain"		=>	"Simulation is finished, you can see importation result below. <br/>Dokuwiki user accounts have NOT been imported yet. <br/>When running real import, new passwords can be sent by email to imported users.",
+	"simulation_sendpwd"	=>	"Send to each imported user his new password by email",
+	"simulation_submit"	=>	"Run real import",
+	"run_title"	=>	"Import simulation result",
+	"run_explain_mailsent"	=>	"Imported users will get an email with their new passwords.",
+	"run_explain_mailnotsent"	=>	"Imported users will NOT get any email, so they WON'T be able to authenticate unless you send them their new passwords.",
+	"run_explain"		=>	"Import is finished, you an see import result below. <br/>Dokuwiki user accounts have been imported to Anwiki!",
+	"mail_subject"		=>	"Welcome to %sitename%!",
+	"mail_body"		=>	"%displayname%,\r\nYour account have been imported to our new wiki engine installed on %urlroot%\r\nA new password has been automatically created for your account during the import process, but feel free to change it. \r\nYou can now log-in with the following information:\r\nLogin: %login%\r\nPassword: %password%\r\n\r\n",
+	"imported_login"	=>	"Imported user (login)",
+	"imported_email"	=>	"Email",
+	"imported_password"	=>	"Assigned password",
+	"imported_result"	=>	"Import result",
+);
+?>

@@ -1,0 +1,37 @@
+/**
+ * Anwiki is a multilingual content management system <http://www.anwiki.com>
+ * Copyright (C) 2007-2009 Antoine Walter <http://www.anw.fr>
+ * 
+ * Anwiki is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3 of the License.
+ * 
+ * Anwiki is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Anwiki.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * Styles for contentclass anwikiaddon.
+ * @package Anwiki
+ * @version $Id: contentclass_anwikiaddon.css 201 2009-04-08 23:23:39Z anw $
+ * @copyright 2007-2009 Antoine Walter
+ * @license http://www.gnu.org/copyleft/gpl.html GNU Public License 3
+ */
+
+
+div.cc-anwikiaddon h1 span.addon_name { font-weight:bold; }
+div.cc-anwikiaddon div.addon_description { margin:4em 3em 3em 3em; background-color:#F5E1CD; clear:both; text-align:center; padding:0.9em; -moz-border-radius: 1em; border-radius: 1em; -khtml-border-radius: 1em; }
+div.cc-anwikiaddon div.addon_description, div.addon_body { text-align:justify; }
+div.cc-anwikiaddon div.addon_categories { float:right; clear:right; margin-top:1em; }
+div.cc-anwikiaddon div.addon_categories a { background:#F5E1CD; padding:2px 5px; -moz-border-radius: 0.5em; border-radius: 0.5em; -khtml-border-radius: 0.5em; }
+div.cc-anwikiaddon div.addon_versions { text-align:center; margin-bottom:2em; }
+div.cc-anwikiaddon div.addon_versions table { margin:0px auto; width:90%; border:1px solid #000; border-spacing:0; }
+div.cc-anwikiaddon div.addon_versions table td { border-top:1px solid #000; margin:0; }
+div.cc-anwikiaddon div.addon_versions table td.addon_version_date { width:10em; }
+div.cc-anwikiaddon div.addon_versions table td.addon_version_name { width:10em; }
+div.cc-anwikiaddon div.addon_versions table td.addon_version_download { width:10em; }

@@ -1,0 +1,36 @@
+/**
+ * Anwiki is a multilingual content management system <http://www.anwiki.com>
+ * Copyright (C) 2007-2009 Antoine Walter <http://www.anw.fr>
+ * 
+ * Anwiki is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3 of the License.
+ * 
+ * Anwiki is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Anwiki.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * Styles for contentclass docbook.
+ * @package Anwiki
+ * @version $Id: contentclass_docchapter.css 170 2009-04-05 18:06:49Z anw $
+ * @copyright 2007-2009 Antoine Walter
+ * @license http://www.gnu.org/copyleft/gpl.html GNU Public License 3
+ */
+
+div.cc-docchapter div.navbook { clear:both; }
+div.cc-docchapter div.navbook div.navbook_left, div.cc-docchapter div.navbook div.navbook_center, div.cc-docchapter div.navbook div.navbook_right { float:left; width:33%; padding:1em 0em; }
+div.cc-docchapter div.navbook div.navbook_center { text-align:center; }
+div.cc-docchapter div.navbook div.navbook_right { text-align:right; }
+div.cc-docchapter div.navbook div span { background-color:#F5E1CD; padding:0.2em 0.3em; -moz-border-radius: 0.5em; border-radius: 0.5em; -khtml-border-radius: 1em; }
+div.cc-docchapter h1 a { color:#000000; text-decoration:none; }
+
+div.cc-docchapter div.docindex { background-color:#F5E1CD; width:400px; padding:0.2em 0.3em; margin-bottom:1.5em; -moz-border-radius: 0.5em; border-radius: 0.5em; -khtml-border-radius: 1em; }
+div.cc-docchapter div.docindex h2 { margin-top:0em; }
+
+
